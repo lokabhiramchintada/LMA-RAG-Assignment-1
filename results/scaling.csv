@@ -1,0 +1,5 @@
+chunks in collection,cross-encoder over all chunks,bi-encoder top-10 + re-rank 10
+133,0.1 s,~10 ms (+ ANN index lookup)
+10000,7.2 s,~10 ms (+ ANN index lookup)
+1000000,724.7 s,~10 ms (+ ANN index lookup)
+100000000,20.1 h,~10 ms (+ ANN index lookup)

@@ -1,0 +1,8 @@
+type,query,gold chunk,bi-encoder rank (full corpus),rank after re-ranking,in top-3: baseline,in top-3: re-ranked
+Negation & constraints,Is it prohibited to give resource cards to another player for free?,107,10,1,False,True
+Exception / corner case,Which development card can I reveal on the same turn I buy it?,46,4,2,False,True
+Keyword trap / distractor,Can a settlement be built right next to my own settlement?,22,5,2,False,True
+Exception (rule variant),Can I use a harbor on the same turn I build a settlement on it?,43,5,1,False,True
+Buried chunk (ranks 4–10),"After playing Year of Plenty, can I spend those cards to build right away?",73,5,1,False,True
+Counter-example: re-ranker demotes the answer,Can I trade 2 wool for 1 wool?,49,3,5,True,False
+Counter-example: recall miss (not in top-10),Am I allowed to leave the robber where it is after rolling a 7?,89,17,not in top-10,False,False

@@ -1,0 +1,5 @@
+,mean (ms),median (ms),p95 (ms)
+Pipeline 1 retrieval (embed query + top-10 search),1.8,1.8,1.9
+Cross-encoder re-rank of 10 pairs,8.7,8.4,11.5
+Pipeline 2 retrieval total (bi-encoder + re-rank),10.5,10.3,13.3
+"LLM generation (one answer, either pipeline)",896.9,844.7,1230.1
